@@ -18,7 +18,7 @@ local function do_ore(ore,o)
 			end
 	 end
 	 core.register_tool("scythe:sickle_" .. ore, {
-												 description = name .. "Sickle",
+												 description = name .. " Sickle",
 												 inventory_image = "scythe_sickle_" .. ore .. ".png",
 												 tool_capabilities = {
 														full_punch_interval = 0.3,
